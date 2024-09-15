@@ -1,0 +1,35 @@
+.formik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: black;
+    margin-left: 20px;
+}
+
+.fiel {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.field {
+    background-color: #fff;
+}
+
+
+.button {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: rgb(31, 14, 14);
+    background-color: #dd9b9b;
+    border: 1px solid #000;
+}
+
+.button:hover,
+.button:focus {
+    border: 1px solid #f30202;
+    background-color: #b3b0b0;
+    color: rgb(1, 16, 16);
+}

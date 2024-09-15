@@ -1,0 +1,39 @@
+.contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+}
+
+.name {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+}
+
+.number {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+.deleteButton {
+    margin-left: 15px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background-color: #e07b7b;
+    color: rgb(37, 3, 3);
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #ff4c4c;
+}
